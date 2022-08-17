@@ -13,7 +13,8 @@ console.log(x(1,2))
 // 3
 
 // ================================================================= //
-// Callback: .on = addEventListener
+// .on = addEventListener
+// base on the event and run the callback
 // https://nodejs.org/api/events.html#emitteroneventname-listener
 // ================================================================= //
 
