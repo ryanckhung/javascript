@@ -1,5 +1,6 @@
 let isOK=true;
 
+// myResolve and myReject are the callback functions
 let myPromise = new Promise(function(myResolve, myReject) {
   // The producing code (this may take some time)
   // long runnning code
