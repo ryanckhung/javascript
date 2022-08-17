@@ -26,6 +26,7 @@ myPromise.then(
 )
 
 // THIRD
+// myPromise.then(myResolve function).catch(myReject function)
 myPromise.then((value)=>{console.log(value)}).catch((err)=>{console.log(err)});
 
 // FORTH
