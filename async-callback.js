@@ -14,7 +14,7 @@ console.log(x(1,2))
 
 // ================================================================= //
 // .on = addEventListener
-// base on the event and run the callback
+// base on the emiited event and run the callback (inside the .on())
 // https://nodejs.org/api/events.html#emitteroneventname-listener
 // ================================================================= //
 
