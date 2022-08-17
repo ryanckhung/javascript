@@ -50,3 +50,12 @@ myAsyncFct();
 // OK
 // OK
 // OK
+
+
+myPromise.then((value)=>{console.log("P1 " + value); return value}).then((value)=>(console.log("P2 "+ value))).catch((err)=>{console.log("P1 " + err)});
+// RESULT (let isOK=true)
+// P1 OK
+// P2 OK
+// RESULT (let isOK=false)
+// P1 Error
+
