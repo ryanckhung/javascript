@@ -1,6 +1,7 @@
 let isOK=true;
 
 // myResolve and myReject are the callback functions
+// you can treate the myPromise as a long running function (process images), but you need to supply a callback functions (success, fail) after running those long running code
 let myPromise = new Promise(function(myResolve, myReject) {
   // The producing code (this may take some time)
   // long runnning code
