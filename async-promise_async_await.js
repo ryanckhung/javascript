@@ -4,7 +4,7 @@ let isOK=true;
 // you can treate the myPromise as a long running function (eg. process images), 
 // but you need to supply a callback functions (success, fail) after running those long running code
 // Simply Speaking: It just like a function, but you need to supply the functions and tell what should do after those long running code
-// .catch() must be implment as it need to provide the reject callback
+// .catch() must be implement as it need to provide the reject callback
 
 let myPromise = new Promise(function(myResolve, myReject) {
   // The producing code (this may take some time)
